@@ -46,7 +46,7 @@ print("STEP2: AUTHORIZE FROM JIRA")
 print("Visit to the following URL to provide authorization:")
 print(AUTHORIZE_URL + "?oauth_token=" + token)
 print("\n^^Copy the above URL, visit it, and hit 'accept' on the prompt that follows.^^\n")
-while raw_input("Press any key to continue ONLY AFTER authorizing your token...!"):
+while input("Press any key to continue ONLY AFTER authorizing your token...!"):
     pass
 
 # XXX: This is an ugly hack to get around the verfication string
